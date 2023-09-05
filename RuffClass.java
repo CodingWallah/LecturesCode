@@ -71,8 +71,8 @@ public class RuffClass {
  public static void main(String[] args) {
     int arr[] = {50,60,30,20,90,50};
 
-    QuickSort(arr,0,arr.length-1);
-    System.out.println(Arrays.toString(arr));
+    //QuickSort(arr,0,arr.length-1);
+    //System.out.println(Arrays.toString(arr));
  }
 
 private static void QuickSort(int[] arr, int s, int e) {
@@ -144,3 +144,17 @@ private static void swap(int[] arr, int i, int j) {
 
  }
 
+
+//  class Account {
+//     static class Amount{
+//     }
+//  }
+
+// class Bank{
+// }
+
+// class test{
+//     public static void main(String[] args) {
+//         Account.Amount am = new Account.Amount();
+//     }
+// }

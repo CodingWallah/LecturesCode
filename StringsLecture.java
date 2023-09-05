@@ -91,5 +91,14 @@ public class StringsLecture {
         System.out.println(sb.capacity());
         System.out.println(sb.length());
         //auto grow feature like arraylist
+
+        String str1 = "Hello";
+String str2 = new String("Hello");
+str2 = str2.intern();
+System.out.println(str1 == str2);
+
+
     }
+
+  
 }
