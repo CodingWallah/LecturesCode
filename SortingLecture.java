@@ -31,7 +31,7 @@ public class SortingLecture {
     }
 }
 
-public static class MergeSort {
+    public static class MergeSort {
       private static void mergeSort(int[] arr, int left, int right) {
          if(left<right){
             int mid = (left + right)/2;
@@ -69,5 +69,74 @@ public static class MergeSort {
         System.out.println("Sorted array: " + Arrays.toString(arr));
        }
 
+    }
+
+    public static class QuickSort{
+        public static void main(String[] args){
+                int arr[] = {50,5,40,60,30,20,10,50};
+                System.out.println("Unsorted = "+Arrays.toString(arr));
+                QuickSort(arr, 0, arr.length-1);
+                System.out.println("Sorted = "+Arrays.toString(arr));
+        }
+     
+        public static int partion(int arr[],int end){
+            int p = arr[end];
+            System.out.println("Pivot = "+p);
+            int i=-1;
+            for(int j=0;j<=end;j++){
+                if(arr[j]<=p){
+                    i++;
+                    int temp = arr[i];
+                    arr[i]=arr[j];
+                    arr[j]=temp;
+                }
+            }
+                System.out.println("Stage 1 = "+Arrays.toString(arr));
+                //    int temp = arr[i+1];
+                //    arr[i+1]=arr[end];
+                //    arr[end]=temp;
+                // System.out.println("After Pivot = "+Arrays.toString(arr));
+            return i;
+        }  
+        static void printArrays(int arr[],int start,int end){
+            int temp[] = new int[end-start+1];
+            int i=0;
+            while(start<=end) temp[i++] =arr[start++];
+            System.out.println("Partion = "+Arrays.toString(temp));
+        }
+        
+        public static void QuickSort(int[] arr, int start, int end){
+            if(start<end){
+                int p = partion(arr,end);
+                //printArrays(arr,start, p-1);
+                QuickSort(arr, start, p-1);
+                //printArrays(arr,start, p-1);
+                QuickSort(arr, p+1, end);
+            }
+        }
+    }
+
+    public static void bubbleSort(int arr[]){
+      for(int i=0;i<arr.length-1;i++){
+            for(int j=0;j<arr.length-1-i;j++){
+                if(arr[j]>arr[j+1]) swap(arr,j,j+1);
+            }
+      }
+    }
+
+    public static void swap(int arr[],int a,int b){
+        int temp =arr[a];
+        arr[a]=arr[b];
+        arr[b]=temp;
+    }
+
+    public static void main(String[] args) {
+        int arr[] = {50,3,20,10,5};
+        bubbleSort(arr);
+        System.out.println(Arrays.toString(arr));
+
+        for(int i=0;i<5;i++)
+            for(int j=0;j<5;j++)
+                if(i==j) System.out.print(i);
     }
 }

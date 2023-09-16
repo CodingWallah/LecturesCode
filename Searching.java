@@ -146,6 +146,28 @@ public class Searching {
             System.out.println("First occurrence: " + result[0]);
             System.out.println("Last occurrence: " + result[1]);
         }
+
+        public static class MotivationalCode {
+          public static void main(String[] args) {
+            boolean keepTrying = true; 
+            String quote1 = "You try- You Fail,";
+            String quote2 = "But the Real Failure is when you stop trying.";
+            String quote3 = "Keep trying, and you'll succeed!";
+            String quote4 = "You've decided to take a break.";
+            String quote5 = "Remember, you can always come back and ";
+            String quote6 = quote5.concat("try again later!");
+                if (keepTrying) {
+                    System.out.println(quote1 +quote1+ quote2);
+                    System.out.println(quote3);
+                } else {
+                    System.out.println(quote4);
+                    System.out.println(quote6);
+                }
+         }
+        }
+
+
+        
     }
     
 }

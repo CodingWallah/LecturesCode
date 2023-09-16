@@ -1,0 +1,308 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "StackQuestions",
+            "request": "launch",
+            "mainClass": "StackQuestions",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "Searching$FirstAndLastPositionInSortedArray$MotivationalCode",
+            "request": "launch",
+            "mainClass": "Searching$FirstAndLastPositionInSortedArray$MotivationalCode",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "SortingLecture",
+            "request": "launch",
+            "mainClass": "SortingLecture",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "SortingLecture$QuickSort",
+            "request": "launch",
+            "mainClass": "SortingLecture$QuickSort",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ArraysLecture",
+            "request": "launch",
+            "mainClass": "ArraysLecture",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "ArraysQuestions",
+            "request": "launch",
+            "mainClass": "ArraysQuestions",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchQuestions",
+            "request": "launch",
+            "mainClass": "BinarySearchQuestions",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchQuestions$CountOccurrencesInSortedArray",
+            "request": "launch",
+            "mainClass": "BinarySearchQuestions$CountOccurrencesInSortedArray",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchQuestions$SearchInsertPosition",
+            "request": "launch",
+            "mainClass": "BinarySearchQuestions$SearchInsertPosition",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "ConditionalStatements",
+            "request": "launch",
+            "mainClass": "ConditionalStatements",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "DataTypesLecture",
+            "request": "launch",
+            "mainClass": "DataTypesLecture",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionHandling",
+            "request": "launch",
+            "mainClass": "ExceptionHandling",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "InputOutputLecture",
+            "request": "launch",
+            "mainClass": "InputOutputLecture",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListLecture",
+            "request": "launch",
+            "mainClass": "LinkedListLecture",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "LoopsLecture",
+            "request": "launch",
+            "mainClass": "LoopsLecture",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "MethodsLecture",
+            "request": "launch",
+            "mainClass": "MethodsLecture",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "MostlyAskedBasicQuestions",
+            "request": "launch",
+            "mainClass": "MostlyAskedBasicQuestions",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "NewRuff$MergeSort",
+            "request": "launch",
+            "mainClass": "NewRuff$MergeSort",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "OperatorsLecture",
+            "request": "launch",
+            "mainClass": "OperatorsLecture",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "OutputQuestions",
+            "request": "launch",
+            "mainClass": "OutputQuestions",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "PatternPrograms",
+            "request": "launch",
+            "mainClass": "PatternPrograms",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "RecursionLecture",
+            "request": "launch",
+            "mainClass": "RecursionLecture",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "RecursionLecture$DirectRecursion",
+            "request": "launch",
+            "mainClass": "RecursionLecture$DirectRecursion",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "RecursionLecture$IndirectRecursion",
+            "request": "launch",
+            "mainClass": "RecursionLecture$IndirectRecursion",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "RecursionLecture$MutualRecursion",
+            "request": "launch",
+            "mainClass": "RecursionLecture$MutualRecursion",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "RecursionLecture$MutualRecursion$OddEven",
+            "request": "launch",
+            "mainClass": "RecursionLecture$MutualRecursion$OddEven",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "RecursionLecture$NestedRecursion",
+            "request": "launch",
+            "mainClass": "RecursionLecture$NestedRecursion",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "RecursionLecture$Practice",
+            "request": "launch",
+            "mainClass": "RecursionLecture$Practice",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "RecursionLecture$TreeRecursion",
+            "request": "launch",
+            "mainClass": "RecursionLecture$TreeRecursion",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "RuffClass",
+            "request": "launch",
+            "mainClass": "RuffClass",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "Searching",
+            "request": "launch",
+            "mainClass": "Searching",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "Searching$FirstAndLastPositionInSortedArray",
+            "request": "launch",
+            "mainClass": "Searching$FirstAndLastPositionInSortedArray",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "SortingLecture$Merge2SortedArrays",
+            "request": "launch",
+            "mainClass": "SortingLecture$Merge2SortedArrays",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "SortingLecture$MergeSort",
+            "request": "launch",
+            "mainClass": "SortingLecture$MergeSort",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "StackLecture$PlateStackExample",
+            "request": "launch",
+            "mainClass": "StackLecture$PlateStackExample",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "StackLecture$StackUsingArray",
+            "request": "launch",
+            "mainClass": "StackLecture$StackUsingArray",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "StackLecture$StackUsingArrayList",
+            "request": "launch",
+            "mainClass": "StackLecture$StackUsingArrayList",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "StackLecture$StackUsingLinkedList",
+            "request": "launch",
+            "mainClass": "StackLecture$StackUsingLinkedList",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "StringQuestions",
+            "request": "launch",
+            "mainClass": "StringQuestions",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "StringsLecture",
+            "request": "launch",
+            "mainClass": "StringsLecture",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "TxtInputListener",
+            "request": "launch",
+            "mainClass": "TxtInputListener",
+            "projectName": "JAVA DSA Vector_6257592"
+        }
+    ]
+}
