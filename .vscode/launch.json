@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "QueueLecture",
+            "request": "launch",
+            "mainClass": "QueueLecture",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "StackQuestions$RainwaterTrappingBinarySearch",
+            "request": "launch",
+            "mainClass": "StackQuestions$RainwaterTrappingBinarySearch",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
             "name": "StackQuestions",
             "request": "launch",
             "mainClass": "StackQuestions",
