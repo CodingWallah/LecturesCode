@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "QueueLecture$MyDoubleEndedQ",
+            "request": "launch",
+            "mainClass": "QueueLecture$MyDoubleEndedQ",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "RuffClass$me",
+            "request": "launch",
+            "mainClass": "RuffClass$me",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
+            "name": "QueueLecture$QueueUsingArray",
+            "request": "launch",
+            "mainClass": "QueueLecture$QueueUsingArray",
+            "projectName": "JAVA DSA Vector_6257592"
+        },
+        {
+            "type": "java",
             "name": "QueueLecture",
             "request": "launch",
             "mainClass": "QueueLecture",

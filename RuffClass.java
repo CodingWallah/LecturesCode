@@ -2,6 +2,46 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class RuffClass {
+    public static class me{
+        public static boolean checkValidString(String s) {
+            int count=0, star=0;
+    
+            for(int i=0; i<s.length();i++)
+            {
+                char ch = s.charAt(i);
+    
+                if(ch == '(')
+                    count++;
+                else if(ch == ')')
+                    count--;
+                else if(ch =='*')
+                    star++;
+            }// (*) , ((*) , **()) ,
+    
+                System.out.println("result: "+count);
+                System.out.println("star: "+star);
+    
+                if(count==0)
+                    return true;
+                else{
+                    //open brackets jada honge
+                    if(count>0){
+                        //stars will behave as close bracket
+                        if(star-count>=0) return true;
+                    }else{
+                        //stars will behave as open bracket
+                        if(star-(-count)>=0) return true;
+                    }
+                }    
+            return false;
+        }
+
+         public static void main(String[] args) {
+           System.out.println(checkValidString("((*))"));
+        }
+    }
+                           
+
 //     public static void main(String[] args) {
 //       //  System.out.println("Coding Wallah Community");
 
