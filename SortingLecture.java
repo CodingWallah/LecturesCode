@@ -41,31 +41,31 @@ public class SortingLecture {
           }
         }
       
-        static void merge(int arr[], int start, int mid, int end){
+        static void merge(int[] ch, int start, int mid, int end){
             int mA[] = new int[end-start+1];   
             int i=start,j=mid+1,k=0;
             while(i<=mid && j<=end){
-               if(arr[i]<arr[j]) mA[k++] = arr[i++];
-               else mA[k++] = arr[j++];    
+               if(ch[i]<ch[j]) mA[k++] = ch[i++];
+               else mA[k++] = ch[j++];    
             }
 
             //left valus in 1st array
-            while(i<=mid)  mA[k++] = arr[i++];
+            while(i<=mid)  mA[k++] = ch[i++];
 
             //left valus in 2nd array
-            while(j<=end)  mA[k++] = arr[j++];
+            while(j<=end)  mA[k++] = ch[j++];
 
             //dump all sorted values into same array
-            for(int e : mA) arr[start++] =e;
+            for(int e : mA) ch[start++] = e;
        }
 
        public static void main(String[] args) {
         int[] arr = {38, 27, 43, 3, 9, 82, 10,27};
-        
+        char[]ch = {'A','E','D','C','B'};
         System.out.println("Original array: " + Arrays.toString(arr));
 
-        //mergeSort(arr,0,arr.length-1);
-        Arrays.sort(arr);
+       mergeSort(arr,0,arr.length-1);
+       // Arrays.sort(arr);
         System.out.println("Sorted array: " + Arrays.toString(arr));
        }
 
@@ -116,6 +116,18 @@ public class SortingLecture {
         }
     }
 
+    public static void insertionSort(int[] arr) {
+        int n = arr.length;
+        for (int i = 1; i < n; i++) {
+            int key = arr[i];
+            int j = i - 1;
+            while (j >= 0 && key < arr[j]) {
+                arr[j + 1] = arr[j];
+                j--;
+            }
+            arr[j + 1] = key;
+        }
+    }
     public static void bubbleSort(int arr[]){
       for(int i=0;i<arr.length-1;i++){
             for(int j=0;j<arr.length-1-i;j++){
@@ -123,7 +135,9 @@ public class SortingLecture {
             }
       }
     }
-
+     public static void selectionSort(int arr[]){
+     }
+     
     public static void swap(int arr[],int a,int b){
         int temp =arr[a];
         arr[a]=arr[b];
