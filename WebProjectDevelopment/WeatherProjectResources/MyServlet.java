@@ -43,7 +43,7 @@ public class MyServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		//API Key
-		String apiKey = "a66030a74d3efb1ed367423518349b89";
+		String apiKey = "Apni-Api-Key Dalo";
 		// Get the city from the form input
         String city = request.getParameter("city"); 
 
@@ -75,20 +75,20 @@ public class MyServlet extends HttpServlet {
                 
                 //Date & Time
                 long dateTimestamp = jsonObject.get("dt").getAsLong() * 1000;
-                String date = new Date(dateTimestamp).toString();
+                String date = new Date(dateTimestamp);
                 
                 //Temperature
-                double temperatureKelvin = jsonObject.getAsJsonObject("main").get("temp").getAsDouble();
+                double temperatureKelvin = jsonObject.getAsJsonObject("main").get("temp");
                 int temperatureCelsius = (int) (temperatureKelvin - 273.15);
                
                 //Humidity
-                int humidity = jsonObject.getAsJsonObject("main").get("humidity").getAsInt();
+                int humidity = jsonObject.getAsJsonObject("main").get("humidity");
                 
                 //Wind Speed
-                double windSpeed = jsonObject.getAsJsonObject("wind").get("speed").getAsDouble();
+                double windSpeed = jsonObject.getAsJsonObject("wind").get("speed");
                 
                 //Weather Condition
-                String weatherCondition = jsonObject.getAsJsonArray("weather").get(0).getAsJsonObject().get("main").getAsString();
+                String weatherCondition = jsonObject.getAsJsonArray("weather").get(0).getAsJsonObject().get("main");
                 
                 // Set the data as request attributes (for sending to the jsp page)
                 request.setAttribute("date", date);
